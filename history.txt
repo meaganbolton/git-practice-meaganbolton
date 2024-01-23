@@ -68,3 +68,10 @@
   101  git pull
   103  git log --oneline > gitlog.txt
   104  history | grep git > history.txt
+  105  git add history.txt
+  106  git add gitlog.txt
+  107  git commit -m "add gitlog"
+  108  git push -u origin master
+  109  git status
+  111  cat gitlog.txt
+  112  history | grep git > history.txt
