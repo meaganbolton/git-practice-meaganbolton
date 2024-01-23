@@ -1,0 +1,14 @@
+6edd255 Merge pull request #1 from jmc8290/feature-James
+cccb788 add newestFile.txt
+3838dfb merge
+9286b5c changes to new features in feature
+6e6b7cb changes to new feature
+4745864 Merge branch 'features'
+a6e60b6 this is the change to file1
+1c30e89 changes to new_features
+a4cd676 add empty file
+240cac1 Create ReadMe
+0548480 add text
+3019106 add text
+4c680f8 add text
+1a372b0 create new files

@@ -1,0 +1,70 @@
+    2  mkdir git-practice-meaganbolton
+    3  cd git-practice-meaganbolton
+    4  git init
+    7  git status
+   10  git status
+   11  git add .
+   12  git status
+   13  git commit -m 'create new files'
+   14  git config --global user.name "Meagan Bolton"
+   15  git config --global user.email "meaganisdaboom@gmail.com"
+   16  git config --global core.editor "code --wait"
+   17  git config --global init.defaultBranch main
+   18  git commit -m 'create new files'
+   19  git status
+   22  git add file_1.txt 
+   23  git commit -m
+   24  git commit -m "add text"
+   25  git add file_2.txt 
+   26  git commit -m "add text"
+   27  git log
+   28  touch .gitignore
+   29  nano .gitignore 
+   30  git add .gitignore 
+   31  git commit -m "add text"
+   34  git add Readme.md
+   36  git commit -m "Create ReadMe"
+   37  git checkout -b features
+   38  git log
+   40  git commit -m "add empty file"
+   41  git add new_features.txt 
+   42  git commit -m "add empty file"
+   44  git add new_features.txt 
+   45  ggit commit -m "changes to new_features"
+   46  git commit -m "changes to new_features"
+   47  git checkout master
+   50  git add file_1.txt 
+   51  git commit -m "this is the change to file1"
+   52  git merge features
+   53  git log
+   55  git add new_features.txt 
+   56  git commit -m "changes to new feature"
+   57  git checkout features
+   59  git add new_features.txt 
+   60  git commit -m "changes to new features in feature"
+   61  git checkout master
+   62  git merge features
+   63  git merge features
+   64  git commit -m "merge"
+   65  git branch -d features
+   71  git remote add origin https://github.com/meaganbolton/git-practice-meaganbolton.git
+   72  git push -u origin master
+   76  git clone https://github.com/meaganbolton/git-practice-jmc8290.git
+   77  git checkout -b myBranch
+   78  git init
+   80  cd git-practice-jmc8290/
+   81  git checkout -b myBranch
+   82  git checkout master
+   83  git checkout main
+   84  git branch -m myBranch meaganBolton
+   86  git check meaganbolton
+   87  git checko,ut meaganbolton
+   88  git checkout meaganbolton
+   90  git add meagansfile.txt 
+   91  git commit -m "add Meagans file"
+   92  git branch -m meaganBolton feature-meaganbolton
+   93  git push origin feature-meaganbolton
+  100  cd git-practice-meaganbolton/
+  101  git pull
+  103  git log --oneline > gitlog.txt
+  104  history | grep git > history.txt
